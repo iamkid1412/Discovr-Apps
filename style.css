@@ -1,0 +1,22 @@
+body {
+    background-color: #000;
+}
+div.apps {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    z-index: 999;
+    text-align: center;
+    line-height: 58px;
+}
+div.lines {
+    z-index: -1;
+}
+div#apps {
+    top: 200px;
+    left: 600px;
+    background: url('assets/apps.jpg') no-repeat -229px -278px transparent;
+}
